@@ -42,13 +42,27 @@ El descubrimiento de equipos se realizaría con el comando `nmap 192.168.0.0/24`
 
 - ### [Nikto](https://www.kali.org/tools/nikto/)
 
+Con el comando `nikto -h [IP host]` obtenemos un vistazo rápido sobre posibles vulnerabilidades y direcotrios de interés.
+
+![nikto-simple-scan](images/nikto-simple-scan.png)
+
 
 ## Cómo utilizar Wfuzz, Dirb.
 
 ## Utilización de scripts con Nmap para la búsqueda de vulnerabilidades.
 
+Empleando el comando `sudo nmap -sV --script vuln [IP host]` nos mostrará vulnerabilidades conocidas para los servicio del host indicado.
+
+![nmap vuln](images/nmap-vuln.png)
+
 ## Busqueda de información de explotación de vulnerabilidades con searchsploit.
+
+Con el comando `searchsplot [plabras clave]` podemos encontrar diversos exploits en función de la busqueda realizada, como pueden ser versiones de servicios, versiones de kernels, etc...
+
+Por el contrario si queremos buscar exploits concretos de un avulnerabilidad podemos emplear `searchsploit --cve [código CVE]`.
 
 ## Emplear en el navegador la extensión de Shodan, mostrando la información ip, como de dominio del sitio http://iesvalledeljerteplasencia.es.
 
-## Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:< 
+![shodan extension](images/shodan-extension.png)
+
+

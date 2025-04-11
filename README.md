@@ -14,23 +14,28 @@
 - ### [Who.is](https://who.is/)
 
 Con la herramienta who.is introduciendo simplemente un dominio o IP nos da diversa información, tal como los sorvidores donde se encuentran alojados los servicios, la fecha de registro del dominio y más información.
+
 ![Whois marca](images/whois-marca.png)
 
 - ### [DomainTools](https://whois.domaintools.com/)
 
 Esta herramienta es similar a la anterior, simplemente introducimos un dominio o IP en el buscador.Como dato destacado nos nada la ubicación de los servidores y los cambios de hosting.
+
 ![DomainTools marca](images/domaintools-marca.png)
 
 - ### [Dnsrecon](https://www.kali.org/tools/dnsrecon/)
 
 Es una herramienta avanzada que incorpora Kali Linux. Se ejecuta desde la propia terminal, basta con ejecutar `dnsrecon -w -d marca.com` para obtener información sobre el protocolo whois. Requiere de conocimientos más técnicos para poder explotar todo su potenial.
+
 ![DNSrecon marca](images/dnsrecon-marca.png)
 
 ## Cómo utilizar Nmap y nikto.
 
 - ### [Nmap](https://www.kali.org/tools/nmap/)
+
 Nmap escanear puertos, detección de versiones de aplicaciones que se encuentran tras de los puertos, sistemas operativos o identificación de dispositivos.
 El descubrimiento de equipos se realizaría con el comando `nmap 192.168.0.0/24` dentro del rango de IP indicado buscaría obteniendo algo similar a la siguiente captura.
+
 ![Nmap netscan](images/nmap-netscan.png)
 
 
